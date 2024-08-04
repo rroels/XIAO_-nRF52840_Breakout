@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "xiao_nrf52840")(type "KiCad")(uri "${KIPRJMOD}/libs/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "battery_connector")(type "KiCad")(uri "${KIPRJMOD}/libs/53261-0271/53261-0271.kicad_sym")(options "")(descr ""))
+)

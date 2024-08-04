@@ -39,7 +39,7 @@ The goals are the following:
 
 ## How to Obtain the Physical PCB
 
-<img src="images/pcb.jpg" width="600">
+<img src="images/pcb2.jpg" width="600">
 
 The Gerber file is in this repository (`gerber/xiao_nrf52840_breakout.zip`). Simply upload this file a PCB manufacturer of your choice (JLPCB, PCBWay, ...), and you they will make it for you for as low as \$5 for 5 pieces (with the cheapest shipping option, which can take a few weeks).
 

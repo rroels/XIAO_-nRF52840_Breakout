@@ -31,7 +31,7 @@ For this reason I designed my own breakout board, with all pins being exposed (i
 The goals are the following:
 
 * break out all pad on the underside:
-  <img src="images/back-pinout-5.jpg" width="500">
+* <img src="images/back-pinout-5.jpg" width="500">
 * pads on the underside should connect to the breakout board via pogo pins, to avoid having to solder things to the underside of the XIAO.
 * battery connector 
 * maintain compatibility with breadboards
@@ -59,8 +59,11 @@ If you would like to edit the design yourself, you will need to download the fol
 * [https://componentsearchengine.com/part-view/53261-0271/Molex](https://componentsearchengine.com/part-view/53261-0271/Molex)
 * [https://componentsearchengine.com/part-view/MJTP1243/Apem](https://componentsearchengine.com/part-view/MJTP1243/Apem)
 
+You also need these 3D models for the preview:
+* [https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1](https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1)
+* [https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files](https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files) 
 
-From the downloaded zip file, move the content of the `KiCad` and `3D` subfolders into the project structure, so that the end-result looks like this:
+From the downloaded zip files, move the content of the `KiCad` and `3D` subfolders into the project structure, so that the end-result looks like this:
 
 <img src="images/project_structure.jpg" width="200">
 
@@ -71,6 +74,8 @@ The KiCad project is configured to look for these files in these locations, usin
 * [https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 * [https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)
 * [https://wiki.seeedstudio.com/XIAO_BLE/](https://wiki.seeedstudio.com/XIAO_BLE/)
+* [https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files](https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files)
+* [https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1](https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1)
 
 ## TODO
 

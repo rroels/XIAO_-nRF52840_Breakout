@@ -4,9 +4,6 @@
 > The information and material (code, designs, files, ...) are provided "AS IS". We make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information or material. Use this at your own risk.
 
 > [!WARNING]
-> At the time of writing this PCB has not even been produced yet, and as such, it has not even been tested yet! Once it has been properly tested, I will confirm that everything works as expected.
-
-> [!WARNING]
 > Note that some batteries have a "reversed" plug with the positive and negatives wires switched, so always make sure that the polarity matches the indications on the board, before plugging anything in!
 
 ## Introduction
@@ -14,6 +11,10 @@
 This repository contains a small breakout board for the Seeed XIAO nRF52840.
 
 <img src="images/pcb.jpg" width="600">
+
+<img src="images/result1.jpeg" width="200">
+<img src="images/result2.jpeg" width="200">
+<img src="images/result3.jpeg" width="200">
 
 Note that there exists an official XIAO expansion board:
 [https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
@@ -24,7 +25,7 @@ However, for my projects this was not sufficient because:
 * the expansion board takes away some of the already limited pins for the OLED, buzzer, buttons, ...
 * some pins are exposed in their grove connector format, which is not always desired
 
-For this reason I designed my own breakout board, with all pins being exposed (including the pads on the bottom of the XIAO).
+For this reason I designed my own breakout board, with all pins being exposed (including the pads on the bottom of the XIAO). Most importantly, this provides easy access to the SWD pins on the underside, for easy flashing and debugging. 
 
 ## Change Log
 * v1.1
@@ -55,6 +56,13 @@ For JLCPCB, select the order number option where they will replace "JLCJLCJLCJLC
 > [!WARNING]
 > Note that will still have to solder the components onto the PCB yourself!
 
+
+## Bill of Materials (BOM)
+
+* 1 x Molex 53261-0271 battery connector (or similar)
+* 1 x "2x2" DIP Pogo Pins, 12mm
+* 4 x DIP Pogo Pin, 12mm
+
 ## How to Edit Design
 
 Everything you need to edit this design in KiCad 8 is included in the repository.
@@ -83,8 +91,3 @@ The KiCad project is configured to look for these files in these locations, usin
 * [https://wiki.seeedstudio.com/XIAO_BLE/](https://wiki.seeedstudio.com/XIAO_BLE/)
 * [https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files](https://www.printables.com/model/563073-seeed-studio-xiao-nrf52840/files)
 * [https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1](https://grabcad.com/library/seeed-studio-xiao-nrf52840-sense-1)
-
-## TODO
-
-* validate height of required pogo pins
-* make sure reset button works, and makes use of the existing debounce capacitor on the XIAO

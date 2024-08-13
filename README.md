@@ -1,4 +1,4 @@
-# Sharp LS018B7DH02 Memory LCD breakout board
+# Seeed XIAO nRF52840 breakout board
 
 > [!WARNING]
 > The information and material (code, designs, files, ...) are provided "AS IS". We make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information or material. Use this at your own risk.
@@ -26,6 +26,12 @@ However, for my projects this was not sufficient because:
 
 For this reason I designed my own breakout board, with all pins being exposed (including the pads on the bottom of the XIAO).
 
+## Change Log
+* v1.1
+  * Added extra pins for BAT- and BAT+
+* v1.0
+  * Initial design 
+ 
 ## Design Considerations
 
 The goals are the following:
@@ -36,6 +42,7 @@ The goals are the following:
 * battery connector 
 * maintain compatibility with breadboards
 * a big reset button, as the on-board button is difficult to reach
+* keep the width of the board close to the XIAO width
 
 ## How to Obtain the Physical PCB
 

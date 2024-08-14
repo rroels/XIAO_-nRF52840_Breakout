@@ -54,7 +54,7 @@ The Gerber file is in this repository (`gerber/xiao_nrf52840_breakout.zip`). Sim
 For JLCPCB, select the order number option where they will replace "JLCJLCJLCJLC" on the board with the actual order number.
 
 > [!WARNING]
-> Note that will still have to solder the components onto the PCB yourself!
+> Note that you will still have to solder the components onto the PCB yourself!
 
 
 ## Bill of Materials (BOM)
